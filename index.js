@@ -108,7 +108,7 @@ const printOne = (verb, lang = 'en') => {
 		}
 	});
 	const printable = verb.translations[lang] + ':\n\t' + conjugations.join(', ');
-	console.log('\n\n' + printable);
+	console.log('\n' + printable);
 }
 
 printAll('en');
